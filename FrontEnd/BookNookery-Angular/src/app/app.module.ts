@@ -5,9 +5,11 @@ import { AppComponent } from "./app.component";
 import { SplashScreenComponent } from "./../app/components/splashscreen/splashscreen.component";
 import { HomeComponent } from "./../app/components/home/home.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, SplashScreenComponent, HomeComponent],
+  declarations: [AppComponent, SplashScreenComponent, HomeComponent, FooterComponent, HeaderComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent]
