@@ -1,3 +1,4 @@
+import { Router } from '@angular/router'
 import { Component, OnInit } from '@angular/core';
 import { FooterComponent } from '../footer/footer.component'
 import { HeaderComponent } from '../header/header.component'
@@ -9,10 +10,14 @@ import { HeaderComponent } from '../header/header.component'
 })
 export class HomeComponent implements OnInit  {
 
-    constructor(public Footer: FooterComponent, public Header: HeaderComponent) {}
+    constructor(public Footer: FooterComponent, public Header: HeaderComponent, private router: Router) {}
 
 
     ngOnInit(): void {
         
+    }
+
+    goToMain(){
+      this.router.navigateByUrl('/mainPage')
     }
 }

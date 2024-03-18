@@ -7,10 +7,12 @@ import { HomeComponent } from "./../app/components/home/home.component";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
+import { CarouselModule } from "primeng/carousel";
 
 @NgModule({
-  declarations: [AppComponent, SplashScreenComponent, HomeComponent, FooterComponent, HeaderComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  declarations: [AppComponent, SplashScreenComponent, HomeComponent, FooterComponent, HeaderComponent, MainPageComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, CarouselModule],
   providers: [],
   bootstrap: [AppComponent]
 })
