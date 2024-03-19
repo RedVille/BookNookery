@@ -19,6 +19,10 @@
     padding-bottom: 20px;
 }
 
+.book-carousel img:hover{
+    cursor: pointer;
+}
+
 .next-arrow{
     padding-top: 100%;
 }
