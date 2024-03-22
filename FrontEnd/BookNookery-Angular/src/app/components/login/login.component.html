@@ -1,0 +1,29 @@
+<div  class="box-content-2 d-flex justify-content-center">
+
+    <div class="light-background col grid-align">
+        <img class="center-box light-background" src="./../../../assets/img/logos/logo-slogan.svg" (click)="goToMain()">
+    </div>
+
+    <div class="col grid-align">
+
+        <div class="center-box text-center">
+            <form action="">
+                <input class="input-single" placeholder="Username or e-mail" type="text">
+                <br>
+                <input class="input-single" placeholder="Password" type="password">
+                <br>
+                <button type="submit" class="button-yellow" (click)="goToProfile()">Log In</button>
+            </form>
+
+            <br>
+                <a href="">Forgot password?</a>
+                <br>
+                <hr>
+                <button class="button-yellow" (click)="goToSignup()">Sign Up</button>
+        </div>
+        
+    </div>
+
+</div>
+
+<app-footer></app-footer>

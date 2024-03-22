@@ -1,0 +1,20 @@
+.box-content-2 {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:-1;
+}
+
+.grid-align {
+    display: grid;
+}
+
+.center-box {
+    place-self: center;
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+}
