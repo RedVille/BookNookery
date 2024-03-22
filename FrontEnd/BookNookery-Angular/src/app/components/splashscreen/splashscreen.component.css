@@ -22,7 +22,8 @@
   }
   
   .app-logo {
-    background: url("./../../../assets/SplashLogo.svg");
+    background: url("./../../../assets/img/logos/SplashLogo.svg");
+    background-color: #FFF2E2;
     background-repeat: no-repeat;
     max-width: 100%;
     background-position: center;

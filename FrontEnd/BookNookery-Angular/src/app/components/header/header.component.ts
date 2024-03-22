@@ -1,3 +1,4 @@
+import { Router } from '@angular/router'
 import { Component, OnInit, Injectable } from '@angular/core';
 
 @Injectable({
@@ -10,9 +11,17 @@ import { Component, OnInit, Injectable } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent implements OnInit {
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
       
+  }
+
+  goToLogin(){
+    this.router.navigateByUrl('/login')
+  }
+
+  goToMain(){
+    this.router.navigateByUrl('/mainPage')
   }
 }

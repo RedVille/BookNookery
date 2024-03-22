@@ -4,3 +4,14 @@
     margin-right: 2%; 
     margin-left: 2%;
 }
+
+.footer-social {
+    text-align: center; 
+    padding-top: 15px; 
+    padding-bottom: 15px;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
